@@ -20,15 +20,15 @@ class HelloWorld{
     {
         if(hargaBeli == hargaJual)
         {
-        System.out.println("Harga sama saja");
+            System.out.println("Harga sama saja");
         }
         else if(hargaBeli > hargaJual)
         {
-        System.out.println("untung sebesar : " + (hargaBeli - hargaJual));
+            System.out.println("untung sebesar : " + (hargaBeli - hargaJual));
         }
         else
         {
-        System.out.println("rugi sebesar : " + (hargaBeli - hargaJual));
+            System.out.println("rugi sebesar : " + (hargaBeli - hargaJual));
         }
     }
     public static void main(String[] args){
